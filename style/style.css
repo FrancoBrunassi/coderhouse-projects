@@ -1,0 +1,76 @@
+/* Importación de fuentes desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 2. PALETA DE COLORES Y VARIABLES */
+:root {
+    --font-ppal: "Roboto Condensed", sans-serif;
+    --font-sec: "Roboto Condensed", sans-serif;
+    --text: #94A3B8;
+    --bg-ppal: #0F172A;
+    --bgs-sec: #2E1065;
+    --accent: #A78BFA;
+}
+
+/* 3. ESTILOS GLOBALES Y FONDO */
+body {
+    background-color: var(--bg-ppal);
+    margin: 2rem;
+}
+
+header {
+    background-color: var(--bgs-sec); 
+    padding: 2rem;
+    text-align: center;
+}
+
+/* 4. TIPOGRAFÍA */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-ppal);
+    color: var(--text);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-weight: 500; 
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+p, ul {
+    font-family: var(--font-sec);
+    color: var(--accent);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* 5. COMPONENTES */
+.logo {
+    width: 10vh;
+    height: auto;
+}
+
+.rrss {
+    width: 6vh;
+    height: auto;
+}
+
+.reff {
+    width: 30vh;
+    height: auto;
+}
+
+.inicio {
+    width: 30vh;
+    height: auto;
+}
