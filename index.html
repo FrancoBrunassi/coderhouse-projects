@@ -1,85 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ventalamp</title>
-    <link rel="icon" href="./assets/logos/iconopage.png" type="image/x-icon">    
+    <title>Ventalamp | Lamparas y decoracion impresas en 3D</title>
+    <link rel="icon" href="./assets/logos/iconopage.png" type="image/png">
     <link rel="stylesheet" href="./style/style.css">
-    </head> 
-        
-    <body>
-        <header>
-            <a href="./index.html"><img src="./assets/logos/ventalamp logo.png" alt="Logo ventalamp" class="inicio"> </a>
-            <h1>Ventalamp</h1>
-        </header>      
-        <nav>
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html"><img src="./assets/logos/ventalamp logo.png" alt="Logo Ventalamp" class="inicio"></a>
+        <nav class="navbar">
             <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li>
-                    <a href="./page/sobremi.html">Sobre mi</a>
-                </li>
-                <li>
-                    <a href="./page/proyecto.html">Proyecto</a>
-                </li>
-                <li>
-                    <a href="./page/faq.html">Faq</a>
-                </li>
-                <li>
-                    <a href="./page/contacto.html">Contacto</a>
-                </li>
+                <li><a href="./index.html" aria-current="page">Inicio</a></li>
+                <li><a href="./page/sobremi.html">Nosotros</a></li>
+                <li><a href="./page/proyecto.html">Proyecto</a></li>
+                <li><a href="./page/faq.html">FAQ</a></li>
+                <li><a href="./page/contacto.html">Contacto</a></li>
             </ul>
         </nav>
-    
-        <main>        
-            <section>
-                <h2>Venta de Lámparas y Accesorios decorativos</h2>
-                <p>Construimos lamparas de calidad para iluminar tu hogar con estilo.</p>
-            </section>
+    </header>
 
-            <section>
-                <h2>   
-                    Información General
-                </h2>
-                <article>
-                    <h3>¿Quiénes somos?</h3>
-                    <p>Somos un espacio dedicado a la venta de lámparas y accesorios decorativos de calidad.</p>
+    <main class="home">
+        <section>
+            <h1>Lamparas y accesorios decorativos impresos en 3D</h1>
+            <p>Diseñamos y fabricamos piezas de iluminacion exclusivas, con formas que la manufactura tradicional no permite. Luz calida, diseño propio y acabados cuidados para cada ambiente de tu hogar.</p>
+            <a class="btn" href="./page/contacto.html">Solicitar cotizacion</a>
+        </section>
+
+        <section>
+            <h2>Diseño propio, fabricacion a pedido</h2>
+            <article>
+                <h3>¿Quienes somos?</h3>
+                <p>Somos un estudio de diseño y fabricacion digital especializado en lamparas y accesorios decorativos. Cada pieza se modela en 3D, se imprime con materiales seleccionados y se termina con atencion al detalle para garantizar calidad y durabilidad.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Nuestros servicios</h2>
+            <ul>
+                <li>Lamparas de mesa, de pie y colgantes impresas en 3D</li>
+                <li>Accesorios decorativos: macetas, pantallas y objetos de diseño</li>
+                <li>Personalizacion de medidas, formas y colores</li>
+                <li>Asesoria en iluminacion y diseño de espacios</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Destacados del mes</h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>Lampara de mesa</h3>
+                    <figure>
+                        <img src="./assets/productos/lamp1.jpg" alt="Lampara destacada del mes 1" class="reff">
+                        <p>Diseño exclusivo con acabado profesional y luz calida para tu escritorio, mesa de luz o rincon de lectura. Fabricacion a pedido.</p>
+                    </figure>
                 </article>
-            </section>
 
-            <section>
-                <h2>   
-                    Nuestros Servicios
-                </h2>
-                <ul>
-                    <li>Venta de Lámparas</li>
-                    <li>Venta de Accesorios Decorativos</li>
-                    <li>Asesoría en Diseño de Espacios</li>
-                </ul>
-            </section>
+                <article class="card">
+                    <h3>Lampara decorativa</h3>
+                    <figure>
+                        <img src="./assets/productos/lampara 2.jpg" alt="Lampara destacada del mes 2" class="reff">
+                        <p>Una pieza central para salas, comedores y espacios de trabajo: luz difusa, lineas cuidadas y personalizacion de color y tamaño.</p>
+                    </figure>
+                </article>
 
-            <section>
-                <h2>
-                    Destacado del mes
-                </h2>
-                <figure>
-                    <img src="./assets/lamp1.jpg" alt="Lámpara destacada del mes" class="reff">
-                    <figcaption>    
-                        Lámpara destacada del mes  
-                    </figcaption>
-                </figure>
-            </section>
-        </main>
+                <article class="card">
+                    <h3>Macetas de diseño</h3>
+                    <figure>
+                        <img src="./assets/productos/macetas1.jpg" alt="Macetas decorativas destacadas del mes" class="reff">
+                        <p>Macetas de lineas limpias y acabado uniforme, pensadas para combinar con tus lamparas y completar la decoracion de tu hogar.</p>
+                    </figure>
+                </article>
+            </div>
+        </section>
+    </main>
 
     <footer>
+        <p>&copy; 2026 Ventalamp. Todos los derechos reservados.</p>
         <ul>
-            <li><a href="https://x.com" target="_blank"> <img src="./assets/logos/x.png" alt="logo de x" class="rrss"></a> </li>
-            <li><a href="https://instagram.com" target="_blank"> <img src="./assets/logos/instagram.png" alt="logo de instagram" class="rrss"> </a></li>
-            <li><a href="https://facebook.com" target="_blank"> <img src="./assets/logos/facebook.png" alt="logo de facebook" class="rrss"> </a></li>
-            <li><a href="https://whatsapp.com" target="_blank"> <img src="./assets/logos/whatsapp.png" alt="logo de whatsapp" class="rrss"> </a></li>
-            </ul>
-        <p> &copy; 2026 Ventalamp. Todos los derechos reservados.</p>
+            <li><a href="https://x.com" target="_blank" rel="noopener noreferrer"><img src="./assets/logos/x.png" alt="Ventalamp en X" class="rrss"></a></li>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><img src="./assets/logos/instagram.png" alt="Ventalamp en Instagram" class="rrss"></a></li>
+            <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><img src="./assets/logos/facebook.png" alt="Ventalamp en Facebook" class="rrss"></a></li>
+            <li><a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer"><img src="./assets/logos/whatsapp.png" alt="Ventalamp en WhatsApp" class="rrss"></a></li>
         </ul>
     </footer>
-    </body>
+</body>
 </html>
